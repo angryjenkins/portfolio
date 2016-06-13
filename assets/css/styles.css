@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 	stiffstaff;
+	src: 			url('../fonts/StiffStaff.woff');
+	src: 			local('StiffStaff'),
+					url('../fonts/StiffStaff.otf'),
+					format('opentype');
+	src:			local('StiffStaff'),
+					url('../fonts/StiffStaff.ttf'),
+					format('truetype');
+}
+
+.standout { font-family: 'StiffStaff' }
+
+.intro {
+	background-image: url('../img/banner2.png');
+	background-size: cover;
+	height:100vh;
+}
+
+.toggleNav {
+	position: fixed;
+	border: 2px solid #ddd;
+	margin-left: 18px;
+}
+
+.topIMG {max-height:200px;}
+
+header, main, footer {
+  padding-left: 240px;
+}
+
+main {margin-top: -24px}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+

@@ -1,0 +1,33 @@
+{
+  "name": "001_mattmartin_us",
+  "authors": [
+    "m. nathaniel martin <matt.martin@rutgers.edu>"
+  ],
+  "description": "my portfolio",
+  "main": "index.html",
+  "keywords": [
+    "matt",
+    "martin",
+    "website",
+    "portfolio",
+    "developer",
+    "full",
+    "stack",
+    "nodejs",
+    "front-end"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.mattmartin.us",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Materialize": "materialize#^0.97.6",
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}
